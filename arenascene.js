@@ -249,7 +249,7 @@ class ArenaScene extends Phaser.Scene {
                     if(gameState.playerStats.sleeping == 1){
                         gameState.sleepMonsterTimer--;
                     }else{
-                        gameState.playerStats.stress += 0.3;
+                        gameState.playerStats.stress += 0.2;
                     }
                 }else{
                     gameState.sleepMonsterTimer--;
